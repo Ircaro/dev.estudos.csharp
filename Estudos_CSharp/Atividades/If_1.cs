@@ -18,26 +18,26 @@ namespace Estudos_CSharp.Atividades
             Console.Write("Digite um número: ");
             var input = Console.ReadLine();
             int numero;
-            if (int.TryParse(input, out numero))
+            if (!int.TryParse(input, out numero))
             {
-                if (numero > 0)
-                {
-                    Console.WriteLine("O número é positivo.");
-                }
-                else if (numero < 0)
-                {
-                    Console.WriteLine("O número é negativo.");
-                }
-                else
-                {
-                    Console.WriteLine("O número é zero.");
-                }
+                Console.WriteLine("Entrada inválida.");
+                return; // Early Return
+            }
+
+            if (numero > 0)
+            {
+                Console.WriteLine("O número é positivo.");
+            }
+            else if (numero < 0)
+            {
+                Console.WriteLine("O número é negativo.");
             }
             else
             {
-                Console.WriteLine("Entrada inválida."); 
+                Console.WriteLine("O número é zero.");
             }
-
         }
+
     }
 }
+
