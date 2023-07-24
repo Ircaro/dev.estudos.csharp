@@ -10,7 +10,7 @@ namespace Estudos_CSharp.Operações
     {
         public static void executarAtividade()
         {
-
+            
         }
     }
 }
