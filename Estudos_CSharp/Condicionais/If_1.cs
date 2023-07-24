@@ -9,7 +9,7 @@
 //  Se o número for negativo, exiba: "O número é negativo".
 //  Se o número for zero, exiba: "O número é zero".
 
-namespace Estudos_CSharp.Atividades
+namespace Estudos_CSharp.Condicionais
 {
     internal class If_1
     {

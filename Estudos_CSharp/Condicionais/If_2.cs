@@ -17,7 +17,7 @@
 // SAÍDA
 // imprima todas as classificações do triângulo especificado na entrada.
 
-namespace Estudos_CSharp.Atividades
+namespace Estudos_CSharp.Condicionais
 {
     internal class If_2
     {
@@ -44,23 +44,23 @@ namespace Estudos_CSharp.Atividades
             float ladoB = lados[1];
             float ladoC = lados[2];
 
-            if (ladoA >= (ladoB + ladoC))
+            if (ladoA >= ladoB + ladoC)
             {
                 Console.WriteLine("NÃO FORMA TRIÂNGULO");
             }
             else
             {
-                if (Math.Pow(ladoA, 2) == (Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2)))
+                if (Math.Pow(ladoA, 2) == Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2))
                 {
                     Console.WriteLine("TRIÂNGULO RETÂNGULO");
                 }
 
-                if (Math.Pow(ladoA, 2) > (Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2)))
+                if (Math.Pow(ladoA, 2) > Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2))
                 {
                     Console.WriteLine("TRIÂNGULO OBTUSÂNGULO");
                 }
 
-                if (Math.Pow(ladoA, 2) < (Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2)))
+                if (Math.Pow(ladoA, 2) < Math.Pow(ladoB, 2) + Math.Pow(ladoC, 2))
                 {
                     Console.WriteLine("TRIÂNGULO ACUTÂNGULO");
                 }
@@ -70,7 +70,7 @@ namespace Estudos_CSharp.Atividades
                     Console.WriteLine("TRIÂNGULO EQUILÁTERO");
                 }
 
-                if (((ladoA == ladoB) && ladoA != ladoC) || ((ladoB == ladoC) && ladoB != ladoA ))
+                if (ladoA == ladoB && ladoA != ladoC || ladoB == ladoC && ladoB != ladoA)
                 {
                     Console.WriteLine("TRIÂNGULO ISÓSCELES");
                 }

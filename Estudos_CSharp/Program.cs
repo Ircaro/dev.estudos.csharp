@@ -1,12 +1,14 @@
-﻿using Estudos_CSharp.Atividades;
+﻿using Estudos_CSharp.Operações;
 using System;
 
-class Atividade_1 {
+class Atividade_1
+{
 
-    static void Main(string[] args) {
+    static void Main(string[] args)
+    {
 
-        If_1.executarAtividade();
-        If_2.executarAtividade();
+        OperacoesMatematicas.executarAtividade();
+        OperacoesLogicas.executarAtividade();
 
     }
 
