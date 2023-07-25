@@ -1,14 +1,16 @@
 ﻿using Estudos_CSharp.Operações;
 using System;
 
-class Atividade_1
+class Atividade
 {
 
     static void Main(string[] args)
     {
-
-        OperacoesMatematicas.executarAtividade();
-        OperacoesLogicas.executarAtividade();
+        
+        Soma.executarAtividade();
+        Subtração.executarAtividade();
+        Multiplicação.executarAtividade();
+        Divisão.executarAtividade();
 
     }
 
