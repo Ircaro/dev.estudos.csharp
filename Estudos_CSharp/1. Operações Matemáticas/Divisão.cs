@@ -7,7 +7,7 @@ namespace Estudos_CSharp.Operações
 {
     internal class Divisão
     {
-        public static void executarAtividade()
+        public static void executar()
         {
             int num1 = 63;
             int num2 = 9;

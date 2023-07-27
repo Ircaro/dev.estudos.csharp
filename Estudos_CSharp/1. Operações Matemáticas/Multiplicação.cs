@@ -6,7 +6,7 @@ namespace Estudos_CSharp.Operações
 {
     internal class Multiplicação
     {
-        public static void executarAtividade()
+        public static void executar()
         {
             int num1 = 7;
             int num2 = 5;

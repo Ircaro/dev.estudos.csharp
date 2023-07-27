@@ -6,7 +6,7 @@ namespace Estudos_CSharp.Operações
 {
     internal class Soma
     {
-        public static void executarAtividade()
+        public static void executar()
         {
             int num1 = 11;
             int num2 = 27;

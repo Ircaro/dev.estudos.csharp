@@ -6,7 +6,7 @@ namespace Estudos_CSharp.Operações
 {
     internal class Subtração
     {
-        public static void executarAtividade()
+        public static void executar()
         {
             int num1 = 40;
             int num2 = 19;
